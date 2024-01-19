@@ -108,13 +108,19 @@ body{
 
 /* css of product page */
 
+  #mainContainer{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+  }
+
   #main{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
     margin-top: 20px;
+    margin-right: 40px;
   }
 
   .item{
